@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: #0b2434;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  padding: 100px;
+  font-family: "Poppins", sans-serif;
+}
+
+main {
+  border-radius: 6px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+  font-family: "Poppins", sans-serif;
+}
+
+.title {
+  margin: 0;
+  padding-top: 10px;
+  font-family: "Poppins", sans-serif;
+}
+
+.title-desc {
+  justify-content: center;
+  padding-bottom: 30px;
+}
+
+.roll-dice-button {
+  width: 100px;
+  height: 35px;
+  background: #5035ff;
+  box-shadow: 0px 3.2px 7.68px rgba(0, 0, 0, 0.18);
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+
+.roll-dice-button:active {
+}
+
+.die-container {
+  display: grid;
+  grid-template: auto auto / repeat(5, 1fr);
+  gap: 20px;
+  margin-bottom: 50px;
+}
+
+.die-face {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.15);
+  border-radius: 5px;
+}
